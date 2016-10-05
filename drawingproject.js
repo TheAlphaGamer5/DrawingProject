@@ -49,3 +49,24 @@ canvas.moveTo(520,270);
 canvas.lineTo(450,300);
 canvas.lineTo(500,345);
 canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orangered";
+canvas.moveTo(220,570);
+canvas.lineTo(450,300);
+canvas.lineTo(500,345);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orangered";
+canvas.moveTo(580,570);
+canvas.lineTo(350,300);
+canvas.lineTo(300,350);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orangered";
+canvas.moveTo(400,770);
+canvas.lineTo(360,290);
+canvas.lineTo(440,290);
+canvas.fill();
