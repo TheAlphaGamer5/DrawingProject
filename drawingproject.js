@@ -15,7 +15,7 @@ drawRectangle("", 10, 10);
 
 
 canvas.beginPath();
-canvas.fillStyle = "orange";
+canvas.fillStyle = "orangered";
 canvas.arc(400, 400, 100, 0, 2*Math.PI);
 canvas.fill();
 
@@ -25,13 +25,27 @@ canvas.arc(400, 400, 80, 0, 2*Math.PI);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "orange";
+canvas.fillStyle = "orangered";
 canvas.arc(400, 400, 40, 0, 2*Math.PI);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "orange";
-canvas.moveTo(75,50);
-canvas.lineTo(100,75);
-canvas.lineTo(100,25);
+canvas.fillStyle = "orangered";
+canvas.moveTo(280,270);
+canvas.lineTo(350,300);
+canvas.lineTo(300,350);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orangered";
+canvas.moveTo(400,170);
+canvas.lineTo(360,290);
+canvas.lineTo(440,290);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "orangered";
+canvas.moveTo(520,270);
+canvas.lineTo(450,300);
+canvas.lineTo(500,345);
 canvas.fill();
