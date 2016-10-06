@@ -13,6 +13,13 @@ function drawRectangle(color, xCoord, yCoord) {
 //background
 drawRectangle("", 10, 10);
 
+canvas.beginPath();
+canvas.fillStyle = "orange";
+canvas.moveTo(400,100);
+canvas.lineTo(260,293);
+canvas.lineTo(540,293);
+canvas.fill();
+
 //left side
 canvas.beginPath();
 canvas.fillStyle = "orange";
