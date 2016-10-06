@@ -15,21 +15,21 @@ drawRectangle("", 10, 10);
 
 //left side
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(100,300);
 canvas.lineTo(260,290);
 canvas.lineTo(240,350);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(400,700);
 canvas.lineTo(260,290);
 canvas.lineTo(240,350);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(700,300);
 canvas.lineTo(260,290);
 canvas.lineTo(240,350);
@@ -38,21 +38,21 @@ canvas.fill();
 
 //right side
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(700,300);
 canvas.lineTo(540,290);
 canvas.lineTo(560,350);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(400,700);
 canvas.lineTo(540,290);
 canvas.lineTo(560,350);
 canvas.fill();
 
 canvas.beginPath();
-canvas.fillStyle = "red";
+canvas.fillStyle = "orange";
 canvas.moveTo(100,300);
 canvas.lineTo(540,290);
 canvas.lineTo(560,350);
