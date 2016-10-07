@@ -14,6 +14,21 @@ function drawRectangle(color, xCoord, yCoord) {
 drawRectangle("", 10, 10);
 
 canvas.beginPath();
+canvas.fillStyle = "DimGray";
+canvas.arc(400, 400, 350, 0, 2*Math.PI);
+canvas.fill();
+
+
+canvas.beginPath();
+canvas.fillStyle = "Gray";
+canvas.arc(400, 400, 320, 0, 2*Math.PI);
+canvas.fill();
+
+
+
+
+
+canvas.beginPath();
 canvas.fillStyle = "orange";
 canvas.moveTo(400,100);
 canvas.lineTo(260,293);
@@ -121,7 +136,74 @@ canvas.fill();
 
 canvas.beginPath();
 canvas.fillStyle = "orangered";
-canvas.moveTo(400,770);
+canvas.moveTo(400,750);
 canvas.lineTo(360,290);
 canvas.lineTo(440,290);
+canvas.fill();
+
+
+
+
+//shield
+
+
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(65, 400, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(735, 400, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(400, 65, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(400, 735, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(210, 125, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(590, 125, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(110, 230, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(690, 230, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(210, 675, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(590, 675, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(110, 570, 14, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "DarkGray";
+canvas.arc(690, 570, 14, 0, 2*Math.PI);
 canvas.fill();
