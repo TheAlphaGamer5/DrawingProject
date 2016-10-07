@@ -122,14 +122,14 @@ canvas.fill();
 canvas.beginPath();
 canvas.fillStyle = "orangered";
 canvas.moveTo(220,565);
-canvas.lineTo(450,245);
+canvas.lineTo(450,295);
 canvas.lineTo(500,340);
 canvas.fill();
 
 canvas.beginPath();
 canvas.fillStyle = "orangered";
 canvas.moveTo(580,565);
-canvas.lineTo(350,245);
+canvas.lineTo(350,295);
 canvas.lineTo(300,345);
 canvas.fill();
 
